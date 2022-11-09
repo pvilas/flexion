@@ -1,8 +1,8 @@
-# flexion
+# flexión
 
-Pluralizar y singularizar nombres en castellano (español) para python3.
+Pluralización y singularización de nombres en castellano (español) para python3.
 
-El ![proyecto original](https://github.com/bermi/Python-Inflector) de Bermí Ferrer es más genérico y en python2. Sólo he sacado lo imprescindible para singularizar y pluralizar en python3 en español.
+El [proyecto original](https://github.com/bermi/Python-Inflector) de Bermí Ferrer es más genérico pero solo está disponible para python2. He sacado lo imprescindible para singularizar y pluralizar en python3 y en español.
 
 ## Uso en jinja
 
