@@ -9,13 +9,13 @@ El [proyecto original](https://github.com/bermi/Python-Inflector) de Bermí Ferr
 Tan solo es necesario añadir un filtro al entorno tal como
 
 ```python3
-from flexion import singularizar, pluralizar
+from flexion import singulariza, pluraliza
 from jinja2 import Environment
 
 env = Environment()
-env.filters['pluralizar'] = pluralizar
-env.filters['singularizar'] = singularizar
+env.filters['pluraliza'] = pluraliza
+env.filters['singulariza'] = singulariza
 
-tmpl = env.from_string('"flash"|pluralizar')
+tmpl = env.from_string('"flash"|pluraliza')
 assert tmpl.render() == 'flashes'
 ```
