@@ -16,6 +16,6 @@ env = Environment()
 env.filters['pluraliza'] = pluraliza
 env.filters['singulariza'] = singulariza
 
-tmpl = env.from_string('"flash"|pluraliza')
+tmpl = env.from_string('{{"flash"|pluraliza}}')
 assert tmpl.render() == 'flashes'
 ```
