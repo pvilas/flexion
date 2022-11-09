@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # original: https://github.com/bermi/Python-Inflector
-# adapted by pere vilas
+# adapted by Pere Vilás https://github.com/pvilas/flexion
 
 
 import re
