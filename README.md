@@ -1,4 +1,4 @@
-# flexión
+# Flexión
 
 Pluralización y singularización de nombres en castellano (español) para python3.
 
